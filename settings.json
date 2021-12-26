@@ -1,0 +1,128 @@
+{
+  "zenMode.centerLayout": false,
+  "files.autoSave": "onFocusChange",
+  "intelephense.environment.phpVersion": "8.0.13",
+  "intelephense.diagnostics.undefinedMethods": false,
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 1,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "editor.lineHeight": 35,
+  "editor.suggestFontSize": 14,
+"editor.suggestLineHeight": 28,
+  "terminal.integrated.lineHeight": 1.5,
+
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "window.nativeFullScreen": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": false,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.lineNumbers": "on",
+  "editor.fontLigatures": true,
+
+  "breadcrumbs.enabled": false,
+  "scm.diffDecorations": "none",
+  "editor.hover.enabled": false,
+  "editor.matchBrackets": "never",
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": false,
+  "git.decorations.enabled": false,
+  "editor.lightbulb.enabled": false,
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": false,
+  "problems.decorations.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+    "**/vendor/{[^l],?[^ai]}*": true,
+    // Hide everything in /public, except "index.php"
+    "**/public/{[^i],?[^n]}*": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/_ide_helper.php": true,
+    "**/composer.lock": true,
+    "**/package-lock.json": true,
+    "storage": true,
+    ".phpunit.result.cache": true
+  },
+
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html",
+    "vue": "html",
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php"
+  },
+
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php.suggest.basic": false,
+
+  // "[php]": {
+  //     "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  // },
+  // "php-cs-fixer.onsave": true,
+  // "php-cs-fixer.showOutput": false,
+  // "php-cs-fixer.autoFixByBracket": false,
+  // "php-cs-fixer.rules": "@PSR2",
+
+  "customizeUI.stylesheet": {
+    ".monaco-workbench .part.sidebar>.title>.title-label h2": "text-transform: none;",
+    ".monaco-workbench .part.titlebar": "border-bottom: rgba(255,255,255,0.1) 1px solid !important",
+    ".editor .title": "background: transparent !important; border-bottom: rgba(255,255,255,0.1) 1px solid;",
+    ".editor .title .label-description": "visibility: hidden;",
+    ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-new-file": "display: none !important;",
+    ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-new-folder": "display: none !important;",
+    ".monaco-action-bar .action-item .codicon.codicon-preferences-open-settings": "display: none !important;",
+    // Hide top-right buttons
+    // ".editor .title .actions-container .action-item a": "visibility: hidden;",
+    // Show top-right "settings goto icon"
+    ".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
+    ".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
+    ".editor .title .actions-container": "flex-direction: row-reverse;",
+    ".editor .scrollbar .slider": "visibility: hidden",
+    ".editor .scrollbar:hover .slider": "visibility: initial",
+
+    ".monaco-editor .scroll-decoration": "box-shadow: none;"
+},
+"vscode-edge-devtools.mirrorEdits": true,
+"workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+"window.menuBarVisibility": "compact",
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"prettier.printWidth": 120,
+"terminal.integrated.cursorStyle": "line",
+"editor.wordWrap": "on",
+"editor.wordWrapColumn": 120,
+"editor.formatOnSave": true
+}
