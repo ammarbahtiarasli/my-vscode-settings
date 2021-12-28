@@ -124,5 +124,6 @@
 "terminal.integrated.cursorStyle": "line",
 "editor.wordWrap": "on",
 "editor.wordWrapColumn": 120,
-"editor.formatOnSave": true
+"editor.formatOnSave": true,
+"terminal.integrated.defaultProfile.windows": "Git Bash"
 }
