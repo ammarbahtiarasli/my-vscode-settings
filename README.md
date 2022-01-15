@@ -1,4 +1,4 @@
-# my-vscode-setting
+# my-vscode-settings
 visual studio code settings
 
 
