@@ -1,129 +1,193 @@
 {
-  "zenMode.centerLayout": false,
-  "files.autoSave": "onFocusChange",
-  "intelephense.environment.phpVersion": "8.0.13",
-  "intelephense.diagnostics.undefinedMethods": false,
-  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
-  "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false,
-  "window.zoomLevel": 1,
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.fontSize": 14,
-  "editor.fontFamily": "Jetbrains Mono",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.cursorBlinking": "expand",
-  "editor.lineHeight": 35,
-  "editor.suggestFontSize": 14,
-"editor.suggestLineHeight": 28,
-  "terminal.integrated.lineHeight": 1.5,
+    "vetur.format.options.tabSize": 4,
+    "zenMode.centerLayout": false,
+    "intelephense.environment.phpVersion": "8.1.2",
+    "intelephense.diagnostics.undefinedMethods": false,
+    "workbench.colorTheme": "Mayukai Mirage",
+    "workbench.startupEditor": "none",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.horizontalScrollbarSize": 1,
+    "editor.scrollbar.verticalScrollbarSize": 1,
+    "editor.scrollbar.scrollByPage": false,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#ff5d8f",
+        "terminalCursor.foreground": "#06B6D4",
+        "[Mayukai Mirage]": {
+            "terminal.dropBackground": "#101521",
+            "terminal.background": "#101521"
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.saturation": 1,
+    "window.zoomLevel": 1,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "editor.lineHeight": 40,
+    "editor.suggestFontSize": 14,
+    "editor.suggestLineHeight": 28,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.5,
 
-  "editor.copyWithSyntaxHighlighting": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.emptySelectionClipboard": false,
-  "workbench.editor.enablePreview": false,
-  "window.newWindowDimensions": "inherit",
-  "files.trimTrailingWhitespace": true,
-  "diffEditor.renderSideBySide": false,
-  "editor.snippetSuggestions": "top",
-  "editor.detectIndentation": false,
-  "window.nativeFullScreen": true,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "window.nativeFullScreen": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
 
-  "workbench.sideBar.location": "right",
-  "workbench.editor.showTabs": false,
-  "editor.minimap.enabled": false,
-  "editor.renderIndentGuides": false,
-  "editor.lineNumbers": "on",
-  "editor.fontLigatures": true,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "editor.lineNumbers": "on",
+    "editor.fontLigatures": true,
 
-  "breadcrumbs.enabled": false,
-  "scm.diffDecorations": "none",
-  "editor.hover.enabled": false,
-  "editor.matchBrackets": "never",
-  "workbench.tips.enabled": false,
-  "editor.colorDecorators": false,
-  "git.decorations.enabled": false,
-  "editor.lightbulb.enabled": false,
-  "editor.selectionHighlight": false,
-  "editor.overviewRulerBorder": false,
-  "editor.renderLineHighlight": "none",
-  "editor.occurrencesHighlight": false,
-  "problems.decorations.enabled": false,
-  "editor.renderControlCharacters": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.gotoLocation.multipleReferences": "goto",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.gotoLocation.multipleDeclarations": "goto",
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    "editor.hover.enabled": false,
+    "editor.matchBrackets": "never",
+    "workbench.tips.enabled": false,
+    "editor.colorDecorators": false,
+    "git.decorations.enabled": false,
+    "editor.lightbulb.enabled": false,
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": false,
+    "problems.decorations.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
 
-  "search.useIgnoreFiles": false,
-  "search.exclude": {
-    // Hide everything in /vendor, except the "laravel" and "livewire" folder.
-    "**/vendor/{[^l],?[^ai]}*": true,
-    // Hide everything in /public, except "index.php"
-    "**/public/{[^i],?[^n]}*": true,
-    "**/node_modules": true,
-    "**/dist": true,
-    "**/_ide_helper.php": true,
-    "**/composer.lock": true,
-    "**/package-lock.json": true,
-    "storage": true,
-    ".phpunit.result.cache": true
-  },
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+        "**/vendor/{[^l],?[^ai]}*": true,
+        // Hide everything in /public, except "index.php"
+        "**/public/{[^i],?[^n]}*": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
 
-  "emmet.includeLanguages": {
-    "blade": "html",
-    "vue-html": "html",
-    "vue": "html",
-    "javascript": "javascriptreact"
-  },
-  "files.associations": {
-    ".php_cs": "php",
-    ".php_cs.dist": "php"
-  },
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "javascriptreact"
+    },
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php"
+    },
 
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php.suggest.basic": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "material-icon-theme.folders.color": "#ff5d8f",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "php.suggest.basic": false,
 
-  // "[php]": {
-  //     "editor.defaultFormatter": "junstyle.php-cs-fixer"
-  // },
-  // "php-cs-fixer.onsave": true,
-  // "php-cs-fixer.showOutput": false,
-  // "php-cs-fixer.autoFixByBracket": false,
-  // "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.onsave": false,
+    "php-cs-fixer.showOutput": false,
+    "php-cs-fixer.autoFixByBracket": false,
+    "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
 
-  "customizeUI.stylesheet": {
-    ".monaco-workbench .part.sidebar>.title>.title-label h2": "text-transform: none;",
-    ".monaco-workbench .part.titlebar": "border-bottom: rgba(255,255,255,0.1) 1px solid !important",
-    ".editor .title": "background: transparent !important; border-bottom: rgba(255,255,255,0.1) 1px solid;",
-    ".editor .title .label-description": "visibility: hidden;",
-    ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-new-file": "display: none !important;",
-    ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-new-folder": "display: none !important;",
-    ".monaco-action-bar .action-item .codicon.codicon-preferences-open-settings": "display: none !important;",
-    // Hide top-right buttons
-    // ".editor .title .actions-container .action-item a": "visibility: hidden;",
-    // Show top-right "settings goto icon"
-    ".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
-    ".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
-    ".editor .title .actions-container": "flex-direction: row-reverse;",
-    ".editor .scrollbar .slider": "visibility: hidden",
-    ".editor .scrollbar:hover .slider": "visibility: initial",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.lint.invalidApply": "warning",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "johnsoncodehk.volar"
+    },
+    "terminal.integrated.cursorStyle": "line",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onFocusChange",
 
-    ".monaco-editor .scroll-decoration": "box-shadow: none;"
-},
-"vscode-edge-devtools.mirrorEdits": true,
-"workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
-"window.menuBarVisibility": "compact",
-"editor.defaultFormatter": "esbenp.prettier-vscode",
-"prettier.printWidth": 120,
-"terminal.integrated.cursorStyle": "line",
-"editor.wordWrap": "on",
-"editor.wordWrapColumn": 120,
-"editor.formatOnSave": true,
-"terminal.integrated.defaultProfile.windows": "Git Bash"
+    "customizeUI.stylesheet": {
+        ".monaco-workbench .part.sidebar>.title>.title-label h2": "text-transform: none;",
+        ".monaco-workbench .part.titlebar": "border-bottom: rgba(255,255,255,0.1) 0px solid !important",
+        ".editor .title": "background: transparent !important; border-bottom: rgba(255,255,255,0.1) 0px solid;",
+        ".editor .title .label-description": "visibility: hidden;",
+        ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-new-file": "display: none !important;",
+        ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-new-folder": "display: none !important;",
+        ".monaco-action-bar .action-item .codicon.codicon-preferences-open-settings": "display: none !important;",
+        // Hide top-right buttons
+        // ".editor .title .actions-container .action-item a": "visibility: hidden;",
+        // Show top-right "settings goto icon"
+        ".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
+        ".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
+        ".editor .title .actions-container": "flex-direction: row-reverse;",
+        // ".editor .scrollbar .slider": "visibility: hidden",
+        // ".editor .scrollbar:hover .slider": "visibility: initial",
+        ".monaco-editor .cursor": "background: linear-gradient(to bottom, #06B6D4, #0EA5E9) !important; color: #292D3E !important",
+
+        ".monaco-editor .scroll-decoration": "box-shadow: none;",
+        // ".monaco-workbench .editor-instance .terminal-wrapper>div, .monaco-workbench .pane-body.integrated-terminal .terminal-wrapper>div": "background: red;",
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title>.title-actions .action-item .monaco-dropdown": "display: none;",
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title>.title-actions .action-item .codicon-split-horizontal": "display: none;",
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title>.title-actions .action-item .codicon-compare-changes": "display: none;",
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title>.title-actions .action-item .codicon-close": "font-size: 15px; margin-right: -9px;",
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title>.title-actions .action-item .codicon-close-dirty": "font-size: 15px; margin-right: -9px;",
+        ".monaco-workbench .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar .action-item.checked .action-label": "text-transform: capitalize; border-bottom: transparent;",
+        ".monaco-workbench .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar .action-item:not(.checked) .action-label": "text-transform: capitalize;"
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "redhat.telemetry.enabled": true,
+    "debug.javascript.autoAttachSmartPattern": [],
+    "editor.accessibilityPageSize": 12,
+    "editor.largeFileOptimizations": false,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.linkedEditing": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "liveshare.anonymousGuestApproval": "accept",
+
+    // setting prettier HTML not working
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "window.menuBarVisibility": "toggle"
 }
