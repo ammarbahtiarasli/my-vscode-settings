@@ -1,14 +1,14 @@
 # my-vscode-settings
-visual studio code settings
 
 
-# extension
+# list extension
 
 - auto rename tag
 - auto close tag
 - prettier
 - monokai pro
 - palenight
+- mayukai
 - open in browser
 - eslint
 - laravel blade spacer
@@ -16,3 +16,9 @@ visual studio code settings
 - tailwind intellisense
 - vetur
 - codesnap
+- tailwind intellisense
+- headwind
+- php cs fixer
+- php intelephense
+- monkey patch
+- material icon
